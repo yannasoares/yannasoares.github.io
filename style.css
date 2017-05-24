@@ -9,9 +9,19 @@ html,body{
 	padding: 0;
 	margin: 0; 
 	height: 100%;
-	background: black;
+	background: pink;
 }
 img{
+	animation-name: movepic;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: initial;
+	animation-play-state: initial;
+	position: relative;
+	border-bottom: 2px;
 	width: 300px;
 	border-radius: 250px;
 }
